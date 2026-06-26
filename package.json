@@ -12,6 +12,6 @@
     "vite": "^6.0.0"
   },
   "dependencies": {
-    "chaincss": "^2.8.1"
+    "chaincss": "^2.8.2"
   }
 }
