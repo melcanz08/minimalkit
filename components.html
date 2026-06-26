@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Components — MinimalKit UI Gallery</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧩</text></svg>" />
+  <link rel="stylesheet" href="/src/styles/base.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="/" class="logo">Minimal<span>Kit</span></a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/components.html">Components</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top: 60px; padding-bottom: 100px;">
+
+  <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+    <h1>Component Gallery</h1>
+    <p class="section-subtitle" style="margin: 0 auto;">50+ ready-to-use components. Copy, paste, customize.</p>
+  </div>
+
+  <!-- Buttons -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Buttons</h2>
+    <div class="hstack">
+      <a class="chain-btn-primary" href="#">Primary Button</a>
+      <a class="chain-btn-outline" href="#">Outline Button</a>
+    </div>
+  </section>
+
+  <!-- Badges -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Badges</h2>
+    <div class="hstack">
+      <span class="chain-badge">New</span>
+      <span class="chain-badge-outline">Beta</span>
+    </div>
+  </section>
+
+  <!-- Avatars -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Avatars</h2>
+    <div class="hstack">
+      <div class="chain-avatar">MK</div>
+      <div class="chain-avatar-lg">RC</div>
+    </div>
+  </section>
+
+  <!-- Form Elements -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Form Elements</h2>
+    <div class="vstack" style="max-width: 400px;">
+      <div>
+        <label class="chain-label">Email</label>
+        <input class="chain-input" type="email" placeholder="you@example.com" />
+        <span class="chain-helper-text">We'll never share your email.</span>
+      </div>
+      <div>
+        <label class="chain-label">Message</label>
+        <textarea class="chain-textarea" placeholder="Your message..."></textarea>
+      </div>
+      <div>
+        <label class="chain-label">Country</label>
+        <select class="chain-select">
+          <option>United States</option>
+          <option>Canada</option>
+          <option>United Kingdom</option>
+        </select>
+      </div>
+      <div class="hstack">
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+          <input type="checkbox" class="chain-checkbox" /> <span style="font-size: 14px;">I agree to terms</span>
+        </label>
+      </div>
+      <div class="hstack">
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+          <input type="radio" name="plan" class="chain-radio" checked /> <span style="font-size: 14px;">Monthly</span>
+        </label>
+        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+          <input type="radio" name="plan" class="chain-radio" /> <span style="font-size: 14px;">Yearly</span>
+        </label>
+      </div>
+      <div class="hstack">
+        <span style="font-size: 14px;">Notifications</span>
+        <input type="checkbox" class="chain-toggle" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Alerts -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Alerts</h2>
+    <div class="vstack" style="max-width: 500px;">
+      <div class="chain-alert-success">✅ Your changes have been saved successfully.</div>
+      <div class="chain-alert-warning">⚠️ Your subscription will expire in 3 days.</div>
+      <div class="chain-alert-error">❌ There was an error processing your request.</div>
+    </div>
+  </section>
+
+  <!-- Table -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Table</h2>
+    <div style="overflow-x: auto;">
+      <table class="chain-table">
+        <thead>
+          <tr><th class="chain-th">Name</th><th class="chain-th">Role</th><th class="chain-th">Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="chain-td">John Doe</td><td class="chain-td">Developer</td><td class="chain-td"><span class="chain-badge">Active</span></td></tr>
+          <tr><td class="chain-td">Jane Smith</td><td class="chain-td">Designer</td><td class="chain-td"><span class="chain-badge-outline">Away</span></td></tr>
+          <tr><td class="chain-td">Bob Lee</td><td class="chain-td">Manager</td><td class="chain-td"><span class="chain-badge">Active</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Tabs -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Tabs</h2>
+    <div class="chain-tabs">
+      <button class="chain-tab-item-active">Overview</button>
+      <button class="chain-tab-item">Analytics</button>
+      <button class="chain-tab-item">Settings</button>
+      <button class="chain-tab-item">Billing</button>
+    </div>
+  </section>
+
+  <!-- Pagination -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Pagination</h2>
+    <div class="chain-pagination">
+      <span class="chain-page-item">←</span>
+      <span class="chain-page-item-active">1</span>
+      <span class="chain-page-item">2</span>
+      <span class="chain-page-item">3</span>
+      <span class="chain-page-item">4</span>
+      <span class="chain-page-item">→</span>
+    </div>
+  </section>
+
+  <!-- Skeleton Loading -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Skeleton Loading</h2>
+    <div class="vstack" style="max-width: 300px;">
+      <div class="chain-skeleton" style="width: 100%; height: 40px;"></div>
+      <div class="chain-skeleton-text" style="width: 60%;"></div>
+      <div class="chain-skeleton-text" style="width: 80%;"></div>
+    </div>
+  </section>
+
+  <!-- Spinner -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Spinner</h2>
+    <div class="chain-spinner"></div>
+  </section>
+
+  <!-- Progress Bar -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Progress Bar</h2>
+    <div class="chain-progress-bar">
+      <div class="chain-progress-fill" style="width: 65%;"></div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Divider</h2>
+    <hr class="chain-divider" />
+  </section>
+
+  <!-- Empty State -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Empty State</h2>
+    <div class="chain-empty-state">
+      <div style="font-size: 48px; margin-bottom: 16px;">📭</div>
+      <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 8px;">No items found</h3>
+      <p style="font-size: 14px;">Get started by creating your first item.</p>
+    </div>
+  </section>
+
+  <!-- Stack Layouts -->
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 24px; margin-bottom: 24px; color: #f1f5f9;">Layout Utilities</h2>
+    <div class="vstack" style="max-width: 400px;">
+      <div class="chain-hstack" style="background: #1e293b; padding: 16px; border-radius: 8px;">
+        <span style="font-size: 14px;">Horizontal Stack</span>
+        <span style="font-size: 14px;">→</span>
+        <span style="font-size: 14px;">Items in a row</span>
+      </div>
+      <div class="chain-vstack" style="background: #1e293b; padding: 16px; border-radius: 8px;">
+        <span style="font-size: 14px;">Vertical Stack</span>
+        <span style="font-size: 14px;">↓</span>
+        <span style="font-size: 14px;">Items in a column</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-bottom">
+    <p>&copy; 2026 MinimalKit. Built with ChainCSS.</p>
+  </div>
+</footer>
+
+</body>
+</html>
